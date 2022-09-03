@@ -7,11 +7,11 @@ module.exports = {
   theme: 'vdoing', // 使用依赖包主题
   // theme: require.resolve('../../theme-vdoing'), // 使用本地主题
 
-  title: "Gobrs-Async",
+  title: "",
   description: '强大的任务编排工具',
   // base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
   head: [ // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
-    ['link', {rel: 'icon', href: '/img/favicon.ico'}], //favicons，资源放在public文件夹
+    ['link', {rel: 'icon', href: '/img/web.png'}], //favicons，资源放在public文件夹
     ['meta', {name: 'keywords', content: 'vuepress,theme,blog,vdoing'}],
     ['meta', {name: 'http-equiv', content: 'Content-Security-Policy'}],
     ['meta', {name: 'content', content: 'upgrade-insecure-requests'}],
@@ -24,15 +24,15 @@ module.exports = {
   // 主题配置
   themeConfig: {
     nav: [
-      {text: '首页', link: '/'},
-      {text: '指南', link: '/pages/52d5c3/'},
-      {text: 'FAQ', link: '/pages/9cc27d/'},
+      {text: '🥞首页', link: '/'},
+      {text: '🍰指南', link: '/pages/52d5c3/'},
+      {text: '🍭FAQ', link: '/pages/9cc27d/'},
       {text: '💖支持', link: '/pages/1b12ed/'},
-
+      {text: '🍅GitEE', link: 'https://gitee.com/dromara/gobrs-async'},
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
-    logo: '/img/web.png', // 导航栏logo
-    repo: 'Memorydoc/gobrs-async-starter', // 导航栏右侧生成Github链接
+    logo: '/img/logo.png', // 导航栏logo
+    repo: 'dromara/gobrs-async', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: false, // 更新的时间，及前缀文字   string | boolean (取值为git提交时间)
 
@@ -48,7 +48,7 @@ module.exports = {
       showToArticle: false, // 显示到文章页底部，默认true
       // moreArticle: '/archives' // “更多文章”跳转的页面，默认'/archives'
     },
-    // titleBadge: false, // 文章标题前的图标是否显示，默认true
+    titleBadge: false, // 文章标题前的图标是否显示，默认true
     // titleBadgeIcons: [ // 文章标题前图标的地址，默认主题内置图标
     //   '图标地址1',
     //   '图标地址2'
@@ -70,7 +70,7 @@ module.exports = {
 
     author: { // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, href: String}
       name: 'Gobrs-Async', // 必需
-      href: 'https://github.com/Memorydoc/gobrs-async-starter' // 可选的
+      href: 'https://github.com/dromara/gobrs-async' // 可选的
     },
     social: { // 社交图标，显示于博主信息栏和页脚栏
       // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
@@ -78,23 +78,23 @@ module.exports = {
         {
           iconClass: 'icon-gitee',
           title: 'Gitee',
-          link: 'https://github.com/Memorydoc/gobrs-async-starter'
+          link: 'https://gitee.com/dromara/gobrs-async'
         },
         {
           iconClass: 'icon-github',
           title: 'GitHub',
-          link: 'https://github.com/xugaoyi'
+          link: 'https://github.com/dromara/gobrs-async'
         },
         {
           iconClass: 'icon-weixin',
           title: 'WeChar',
-          link: 'https://mp.weixin.qq.com/s/diVHYvwiuYH9aWpZDPc27g'
+          link: 'https://async.sizegang.cn/pages/dd137d/'
         }
       ]
     },
     footer: { // 页脚信息
-      createYear: 2021, // 博客创建年份
-      copyrightInfo: 'Acmenlt | Apache License', // 博客版权信息，支持a标签
+      createYear: 2022, // 博客创建年份
+      copyrightInfo: 'Memorydoc | Apache License', // 博客版权信息，支持a标签
     },
     htmlModules,
   },
@@ -105,7 +105,6 @@ module.exports = {
     //   color: '#11a8cd', // 爱心颜色，默认随机色
     //   excludeClassName: 'theme-vdoing-content' // 要排除元素的class, 默认空''
     // }],
-
     ['thirdparty-search', { // 可以添加第三方搜索链接的搜索框（原官方搜索框的参数仍可用）
       thirdparty: [ // 可选，默认 []
         {
