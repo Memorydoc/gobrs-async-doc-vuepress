@@ -15,4 +15,4 @@ git remote add origin git@github.com:Memorydoc/gobrs-async.github.io.git
 git push -u origin gh-pages -f
 
 cd -
-#rm -rf docs/.vuepress/dist
+rm -rf docs/.vuepress/dist

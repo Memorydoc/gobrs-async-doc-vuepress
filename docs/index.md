@@ -110,7 +110,7 @@ features:
 
 
 ## 个人主页
-- [**技术小屋**](https://async.sizegang.cn)：记录日常技术笔记
+- [**技术小屋**](https://docs.sizegang.cn/)：记录日常技术笔记
 
 ## 稀土掘金
 - [**Gobrs-Async**](https://juejin.cn/column/7072238711534157838)：任务异步编排、高性能、可扩展、使用灵活
