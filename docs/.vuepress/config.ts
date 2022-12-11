@@ -3,15 +3,12 @@ const htmlModules = require('./config/htmlModules.js');
 
 
 module.exports = {
-
   theme: 'vdoing', // 使用依赖包主题
-  // theme: require.resolve('../../theme-vdoing'), // 使用本地主题
-
-  title: "",
+  title: "Gobrs-Async",
   description: '强大的任务编排工具',
   // base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
   head: [ // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
-    ['link', {rel: 'icon', href: '/img/web.png'}], //favicons，资源放在public文件夹
+    ['link', {rel: 'icon', href: '/img/logo.png'}], //favicons，资源放在public文件夹
     ['meta', {name: 'keywords', content: 'vuepress,theme,blog,vdoing'}],
     ['meta', {name: 'http-equiv', content: 'Content-Security-Policy'}],
     ['meta', {name: 'content', content: 'upgrade-insecure-requests'}],
@@ -42,7 +39,7 @@ module.exports = {
     logo: '/img/logo.png', // 导航栏logo
     repo: 'dromara/gobrs-async', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
-    lastUpdated: false, // 更新的时间，及前缀文字   string | boolean (取值为git提交时间)
+    lastUpdated: true, // 更新的时间，及前缀文字   string | boolean (取值为git提交时间)
 
     // docsDir: 'docs', // 编辑的文件夹
     // editLinks: true, // 编辑链接
@@ -53,10 +50,10 @@ module.exports = {
 
     // sidebarOpen: false, // 初始状态是否打开侧边栏，默认true
     updateBar: { // 最近更新栏
-      showToArticle: false, // 显示到文章页底部，默认true
+      showToArticle: true, // 显示到文章页底部，默认true
       // moreArticle: '/archives' // “更多文章”跳转的页面，默认'/archives'
     },
-    titleBadge: false, // 文章标题前的图标是否显示，默认true
+    titleBadge: true, // 文章标题前的图标是否显示，默认true
     // titleBadgeIcons: [ // 文章标题前图标的地址，默认主题内置图标
     //   '图标地址1',
     //   '图标地址2'
@@ -92,11 +89,6 @@ module.exports = {
           iconClass: 'icon-github',
           title: 'GitHub',
           link: 'https://github.com/dromara/gobrs-async'
-        },
-        {
-          iconClass: 'icon-weixin',
-          title: 'WeChar',
-          link: 'https://async.sizegang.cn/pages/dd137d/'
         }
       ]
     },
@@ -163,14 +155,14 @@ module.exports = {
         },
       },
     ],
-    /*[
-        '@vuepress/last-updated', // "上次更新"时间格式
-        {
-            transformer: (timestamp, lang) => {
-                const dayjs = require('dayjs') // https://day.js.org/
-                return dayjs(timestamp).format('YYYY/MM/DD, HH:mm:ss')
-            },
-        }
-    ]*/
+    // [
+    //     '@vuepress/last-updated', // "上次更新"时间格式
+    //     {
+    //         transformer: (timestamp, lang) => {
+    //             const dayjs = require('dayjs') // https://day.js.org/
+    //             return dayjs(timestamp).format('YYYY/MM/DD, HH:mm:ss')
+    //         },
+    //     }
+    // ]
   ],
 }

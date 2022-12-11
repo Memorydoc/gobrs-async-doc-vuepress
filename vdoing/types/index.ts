@@ -126,10 +126,6 @@ export interface VdoingThemeConfig extends NoSidebar4DefaultThemeConfig {
   /**
    * 页脚信息
    */
-  footer?: {
-    createYear: number,
-    copyrightInfo: string
-  }
 
   /**
    * 自定义hmtl(广告)模块

@@ -134,7 +134,6 @@ features:
 <div>
     <div class="com-box-f s-width">
         <div class="s-fenge"></div>
-        <br>
         <h2 class="s-title">
             Dromara 成员项目
         </h2>
@@ -216,6 +215,39 @@ features:
     </div>
     <div style="height: 60px;"></div>
 </div>
+
+
+## 🧲友情链接
+<span style="width: 150px;flex:1;text-align: left">
+    <a href="https://gitee.com" target="_blank">
+        <img :src="$withBase('/img/link/gitee-logo.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
+    </a>
+</span>
+<span style="width: 150px;text-align: left">
+    <a href="https://www.oschina.net" target="_blank">
+        <img :src="$withBase('/img/link/oschina-logo.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
+    </a>
+</span>
+<span style="width: 150px;text-align: left">
+    <a href="http://www.layui-vue.com/zh-CN/index" target="_blank">
+        <img :src="$withBase('/img/link/layui-vue.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
+    </a>
+</span>
+<span style="width: 150px;text-align: left">
+    <a href="http://www.pearadmin.com/" target="_blank">
+        <img :src="$withBase('/img/link/pearAdmin-logo.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
+    </a>
+</span>
+<span style="width: 150px;text-align: left">
+    <a href="https://gitee.com/dotnetchina" target="_blank">
+        <img :src="$withBase('/img/link/dotnet-china-logo.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
+    </a>
+</span>
+
+
+## 🌏知识星球
+
+<img :src="$withBase('/img/zhishixingqiu.jpg')" style="zoom: 50%" class="no-zoom">
 
 
 <link rel="stylesheet" href="/css/index.css">

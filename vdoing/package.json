@@ -1,18 +1,4 @@
 {
-  "name": "vuepress-theme-vdoing",
-  "version": "1.9.5",
-  "description": "Vdoing theme for VuePress. 一个基于VuePress的知识管理兼博客主题。",
-  "author": {
-    "name": "gaoyi(Evan) Xu"
-  },
-  "homepage": "https://github.com/xugaoyi/vuepress-theme-vdoing#readme",
-  "bugs": {
-    "url": "https://github.com/xugaoyi/vuepress-theme-vdoing/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/xugaoyi/vuepress-theme-vdoing.git"
-  },
   "keywords": [
     "documentation",
     "vue",
