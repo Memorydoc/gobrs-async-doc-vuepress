@@ -19,7 +19,14 @@ module.exports = {
     ['meta', {name: 'wwads-cn-verify', content: '6c4b761a28b734fe93831e3fb400ce87'}], // 广告相关，你可以去掉
     ['script', {src: 'https://cdn.wwads.cn/js/makemoney.js', type: 'text/javascript'}], // 广告相关，你可以去掉
     ['script', {src: 'https://sdk.51.la/js-sdk-pro.min.js', charset : "UTF-8", id : 'LA_COLLECT'}],
-    ['script', {content: 'LA.init({id: "JtJIbNUsg2vuMYyE",ck: "JtJIbNUsg2vuMYyE"})'}]
+    ['script', {content: 'LA.init({id: "JtJIbNUsg2vuMYyE",ck: "JtJIbNUsg2vuMYyE"})'}],
+    ['script', {type: "text/javascript", content: "var _hmt = _hmt || [];\n" +
+          "(function() {\n" +
+          "  var hm = document.createElement(\"script\");\n" +
+          "  hm.src = \"https://hm.baidu.com/hm.js?7ed76af10faf70cf9c4663c9c5ee1002\";\n" +
+          "  var s = document.getElementsByTagName(\"script\")[0]; \n" +
+          "  s.parentNode.insertBefore(hm, s);\n" +
+          "})();"}]
   ],
 
   // 主题配置
@@ -127,7 +134,7 @@ module.exports = {
     [
       'vuepress-plugin-baidu-tongji', // 百度统计
       {
-        hm: baiduCode || '01293bffa6c3962016c08ba685c79d78'
+        hm: baiduCode || '7ed76af10faf70cf9c4663c9c5ee1002'
       }
     ],
 

@@ -2,7 +2,7 @@
 home: true
 #heroImage: /img/web.png
 heroText: Gobrs-Async
-tagline: 🔥 配置极简功能强大的异步任务动态编排框架
+tagline: 🔥 高性能多线程并发编程与动态编排框架
 actionText: 开始使用 → 
 actionLink: /pages/52d5c3/
 #bannerBg: auto # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
@@ -62,7 +62,7 @@ features:
 
 ## Gobrs-Async 介绍
 
-[**Gobrs-Async**](https://github.com/Memorydoc/gobrs-async) 是一款功能强大、配置灵活、带有全链路异常回调、内存优化、异常状态管理于一身的高性能异步编排框架。为企业提供在复杂应用场景下动态任务编排的能力。
+[**Gobrs-Async**](https://github.com/Memorydoc/gobrs-async) 是一款功能强大、配置灵活、带有全链路异常回调、内存优化、异常状态管理于一身的高性能多线程并发编程和动态编排框架。为企业提供在复杂应用场景下动态任务编排的能力。
 针对于复杂场景下，异步线程复杂性、任务依赖性、异常状态难控制性； **Gobrs-Async** 为此而生。
 
 
@@ -76,7 +76,7 @@ features:
 <dependency>
     <groupId>io.github.memorydoc</groupId>
     <artifactId>gobrs-async-starter</artifactId>
-    <version>1.2.1-RELEASE</version>
+    <version>1.2.8-RELEASE</version>
 </dependency>
 
 ```
