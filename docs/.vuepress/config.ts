@@ -29,10 +29,11 @@ module.exports = {
   // 主题配置
   themeConfig: {
     nav: [
-      {text: '🥞首页', link: '/'},
-      {text: '🍰指南', link: '/pages/52d5c3/'},
+      {text: '🚘首页', link: '/'},
+      {text: '🧧指南', link: '/pages/52d5c3/'},
       {text: '🍭FAQ', link: '/pages/9cc27d/'},
       {text: '💖支持', link: '/pages/1b12ed/'},
+      {text: '🚨加入群聊', link: '/pages/123fasfsa/'},
       {text: '🍅GitEE', link: 'https://gitee.com/dromara/gobrs-async'},
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
