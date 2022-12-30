@@ -7,7 +7,7 @@ set -e
 npm run build
 
 # 执行完该文件后 手动到 dist 下的index.html 中 将  /assets/ 全部替换 为以下地址
-# https://cdn.jsdelivr.net/gh/Memorydoc/gobrs-async.github.io/assets/
+# https://cdn.jsdelivr.net/gh/dromara/gobrs-async.github.io/assets/
 
 # 进入生成的文件夹
 cd docs/.vuepress/dist

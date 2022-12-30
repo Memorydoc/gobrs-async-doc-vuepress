@@ -30,10 +30,10 @@ features:
 
 <p align="center">
 
-  <a href="https://github.com/Memorydoc/gobrs-async/stargazers" target="_blank">
+  <a href="https://github.com/dromara/gobrs-async/stargazers" target="_blank">
     <img alt="star" src="https://img.shields.io/github/stars/acmenlt/dynamic-threadpool?style=for-the-badge" class="no-zoom">
   </a>
-<a href="https://github.com/Memorydoc/gobrs-async" target="_blank">
+<a href="https://github.com/dromara/gobrs-async" target="_blank">
 <img alt="fork" src="https://img.shields.io/github/forks/acmenlt/dynamic-threadpool?style=for-the-badge" class="no-zoom"></a>
   <a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank">
     <img alt="code style" src="https://img.shields.io/badge/license-Apache%202-4EB1BA.svg?style=for-the-badge" class="no-zoom">
@@ -41,7 +41,7 @@ features:
 <a href="https://search.maven.org/artifact/io.github.memorydoc/gobrs-async-starter" target="_blank">
 <img alt="maven" src="https://img.shields.io/maven-central/v/cn.Gobrs-Async/Gobrs-Async-spring-boot-starter.svg?style=for-the-badge" class="no-zoom"></a>
 
-<a href="https://github.com/Memorydoc/gobrs-async/commits" target="_blank">
+<a href="https://github.com/dromara/gobrs-async/commits" target="_blank">
 <img alt="commit" src="https://img.shields.io/github/commit-activity/y/acmenlt/dynamic-threadpool?style=for-the-badge" class="no-zoom">
 </a>
 
@@ -62,7 +62,7 @@ features:
 
 ## Gobrs-Async 介绍
 
-[**Gobrs-Async**](https://github.com/Memorydoc/gobrs-async) 是一款功能强大、配置灵活、带有全链路异常回调、内存优化、异常状态管理于一身的高性能多线程并发编程和动态编排框架。为企业提供在复杂应用场景下动态任务编排的能力。
+[**Gobrs-Async**](https://github.com/dromara/gobrs-async) 是一款功能强大、配置灵活、带有全链路异常回调、内存优化、异常状态管理于一身的高性能多线程并发编程和动态编排框架。为企业提供在复杂应用场景下动态任务编排的能力。
 针对于复杂场景下，异步线程复杂性、任务依赖性、异常状态难控制性； **Gobrs-Async** 为此而生。
 
 
@@ -76,7 +76,7 @@ features:
 <dependency>
     <groupId>io.github.memorydoc</groupId>
     <artifactId>gobrs-async-starter</artifactId>
-    <version>1.2.8-RELEASE</version>
+    <version>1.2.9-RELEASE</version>
 </dependency>
 
 ```
@@ -102,7 +102,7 @@ features:
 
 ## 联系我
 
-对于这个项目，是否有什么不一样看法，同 <a href="/pages/dd137d">作者</a> 或者创建 [Issues](https://github.com/Memorydoc/gobrs-async/issues) 沟通
+对于这个项目，是否有什么不一样看法，同 <a href="/pages/dd137d">作者</a> 或者创建 [Issues](https://github.com/dromara/gobrs-async/issues) 沟通
 
 ## Stars 趋势
 
