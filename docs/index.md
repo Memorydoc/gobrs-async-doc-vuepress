@@ -31,10 +31,10 @@ features:
 <p align="center">
 
   <a href="https://github.com/dromara/gobrs-async/stargazers" target="_blank">
-    <img alt="star" src="https://img.shields.io/github/stars/acmenlt/dynamic-threadpool?style=for-the-badge" class="no-zoom">
+    <img alt="star" src="https://img.shields.io/github/stars/dromara/gobrs-async?style=for-the-badge" class="no-zoom">
   </a>
 <a href="https://github.com/dromara/gobrs-async" target="_blank">
-<img alt="fork" src="https://img.shields.io/github/forks/acmenlt/dynamic-threadpool?style=for-the-badge" class="no-zoom"></a>
+<img alt="fork" src="https://img.shields.io/github/forks/dromara/gobrs-async?style=for-the-badge" class="no-zoom"></a>
   <a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank">
     <img alt="code style" src="https://img.shields.io/badge/license-Apache%202-4EB1BA.svg?style=for-the-badge" class="no-zoom">
   </a>
@@ -42,7 +42,7 @@ features:
 <img alt="maven" src="https://img.shields.io/maven-central/v/cn.Gobrs-Async/Gobrs-Async-spring-boot-starter.svg?style=for-the-badge" class="no-zoom"></a>
 
 <a href="https://github.com/dromara/gobrs-async/commits" target="_blank">
-<img alt="commit" src="https://img.shields.io/github/commit-activity/y/acmenlt/dynamic-threadpool?style=for-the-badge" class="no-zoom">
+<img alt="commit" src="https://img.shields.io/github/commit-activity/y/dromara/gobrs-async?style=for-the-badge" class="no-zoom">
 </a>
 
 </p>
@@ -76,7 +76,7 @@ features:
 <dependency>
     <groupId>io.github.memorydoc</groupId>
     <artifactId>gobrs-async-starter</artifactId>
-    <version>1.2.9-RELEASE</version>
+    <version>1.3.0-RELEASE</version>
 </dependency>
 
 ```

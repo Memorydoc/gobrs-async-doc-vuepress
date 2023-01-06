@@ -54,7 +54,7 @@ module.exports = {
       showToArticle: true, // 显示到文章页底部，默认true
       // moreArticle: '/archives' // “更多文章”跳转的页面，默认'/archives'
     },
-    titleBadge: true, // 文章标题前的图标是否显示，默认true
+    titleBadge: false, // 文章标题前的图标是否显示，默认true
     // titleBadgeIcons: [ // 文章标题前图标的地址，默认主题内置图标
     //   '图标地址1',
     //   '图标地址2'
@@ -135,7 +135,7 @@ module.exports = {
       copySelector: ['div[class*="language-"] pre', 'div[class*="aside-code"] aside'], // String or Array
       copyMessage: '复制成功', // default is 'Copy successfully and then paste it for use.'
       duration: 1000, // prompt message display time.
-      showInMobile: false // whether to display on the mobile side, default: false.
+      showInMobile: true // whether to display on the mobile side, default: false.
     }],
     ['demo-block', { // demo演示模块 https://github.com/xiguaxigua/vuepress-plugin-demo-block
       settings: {
